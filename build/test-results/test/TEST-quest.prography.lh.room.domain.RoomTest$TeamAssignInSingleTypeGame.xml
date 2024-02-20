@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SINGLE 게임의 팀 배정 시," tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-20T14:07:47" hostname="ihoui-MacBookAir-12780.local" time="0.003">
+  <properties/>
+  <testcase name="레드팀이 가득 찼다면 블루팀을 반환한다." classname="quest.prography.lh.room.domain.RoomTest$TeamAssignInSingleTypeGame" time="0.001"/>
+  <testcase name="블루팀이 가득 찼다면 레드팀을 반환한다." classname="quest.prography.lh.room.domain.RoomTest$TeamAssignInSingleTypeGame" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

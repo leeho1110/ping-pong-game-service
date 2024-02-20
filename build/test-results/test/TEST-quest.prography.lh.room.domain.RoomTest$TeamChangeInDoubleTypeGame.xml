@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DOUBLE 게임의 팀 변경 시," tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-20T14:07:47" hostname="ihoui-MacBookAir-12780.local" time="0.005">
+  <properties/>
+  <testcase name="반대 팀 비어있고 변경을 원하는 경우, 정상적으로 처리됩니다." classname="quest.prography.lh.room.domain.RoomTest$TeamChangeInDoubleTypeGame" time="0.001"/>
+  <testcase name="반대 팀 가득 차있을 때 변경을 원하는 경우, 예외를 반환합니다." classname="quest.prography.lh.room.domain.RoomTest$TeamChangeInDoubleTypeGame" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,5 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      format_sql: true

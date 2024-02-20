@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DOUBLE 게임의 팀 배정 시," tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-20T14:07:47" hostname="ihoui-MacBookAir-12780.local" time="0.008">
+  <properties/>
+  <testcase name="각 팀이 절반 이상 찼다면 우선순위가 높은 레드팀을 반환한다." classname="quest.prography.lh.room.domain.RoomTest$TeamAssignInDoubleTypeGame" time="0.001"/>
+  <testcase name="레드팀이 가득 차고 블루팀만 한자리만 남았다면, 블루팀을 반환한다." classname="quest.prography.lh.room.domain.RoomTest$TeamAssignInDoubleTypeGame" time="0.001"/>
+  <testcase name="블루팀이 가득 차고 레드팀만 한자리 남았다면, 레드팀을 반환한다." classname="quest.prography.lh.room.domain.RoomTest$TeamAssignInDoubleTypeGame" time="0.0"/>
+  <testcase name="블루팀이 가득 찼다면 레드팀을 반환한다." classname="quest.prography.lh.room.domain.RoomTest$TeamAssignInDoubleTypeGame" time="0.0"/>
+  <testcase name="레드팀이 가득 찼다면 참가자는 블루가 된다." classname="quest.prography.lh.room.domain.RoomTest$TeamAssignInDoubleTypeGame" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

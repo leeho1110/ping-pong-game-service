@@ -1,0 +1,46 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.6.11'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+}
+
+group = 'quest.prography'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	// spring boot
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	// cloud
+	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+	implementation platform("org.springframework.cloud:spring-cloud-dependencies:2021.0.8")
+
+	// test
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// persistence
+	implementation 'com.h2database:h2'
+
+	// documentation
+	implementation 'io.springfox:springfox-swagger2:2.9.2'
+	implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+bootJar {
+	archiveFileName = "spring-이호-01099859214.jar"
+}
